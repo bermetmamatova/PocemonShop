@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(217, 219, 221);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 700px;
+  margin: auto;
+}
+
+form input[type="text"], form select { 
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+  padding: 10px;
+  border: none;
+  background-color: rgb(10, 128, 128);
+  color: #fff;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(10, 128, 128);
+}
+
+h3{
+  text-align: center;
+  color:rgb(10, 128, 128);
+}
+
+.error-message {
+  color: white;
+  background-color: rgb(5, 48, 48);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-color: rgb(217, 219, 221);
+}
+.pokemonD {
+    margin-top: 10px;
+    width: 550px; 
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: white;
+}
+
+.pokemonD img {
+  
+    height: 400px; 
+    object-fit: cover;
+}
+
+.pokemonD h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.pokemonD p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.buy-button {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+h1{
+    color: rgb(168, 178, 112);
+    font-weight: bold;
+    font-style: italic;
+}
+p{
+    color: #f0f0f0;
+    font-weight: bolder;
+    
+}
+
+
+.electric {
+    background-color: yellow; 
+   
+}
+.poison {
+    background-color: rgb(115, 42, 117); 
+   
+}
+.normal {
+    background-color: rgb(218, 214, 97); 
+    
+}
+.bug {
+    background-color: rgb(223, 115, 49); 
+   
+}
+.water {
+    background-color: rgb(63, 189, 203); 
+    
+}
+.grass {
+    background-color: rgb(86, 167, 75); 
+   
+}
+.fire {
+    background-color: rgb(203, 59, 23);
+   
+}
+
+

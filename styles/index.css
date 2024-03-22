@@ -1,0 +1,108 @@
+body {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    padding: 5px;
+    background-color: #f0f0f0b2;
+}
+
+.pokemon-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    padding: 5px;
+    background-color: #f0f0f0b2;
+}
+
+.welcome-message {
+    text-align: center;
+}
+
+
+.pokemon {
+    width: 90%;
+    height: 90%;
+    border: 3px solid rgb(240, 236, 236);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10%;
+    background-color: rgb(171, 214, 180);
+}
+
+.pokemon-image {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10% 10% 0 0; 
+}
+
+.pokemon-image img {
+    width: 60%;
+    object-fit: cover;
+    border-radius: 10% 10% 0 0; 
+}
+h3{
+    text-align: center;
+    color:rgb(10, 128, 128);
+}
+
+.pokemon-info {
+    background-color: rgb(228, 239, 219); 
+    padding: 10px;
+    text-align: center;
+    width: 100%; 
+    border-radius: 0 0 10% 10%; 
+    
+}
+
+.pokemon h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: rgb(10, 128, 128);
+}
+
+.pokemon p {
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.electric {
+    background-color: yellow; 
+    border-radius:  10%;
+}
+.poison {
+    background-color: rgb(115, 42, 117); 
+    border-radius:  10%;
+}
+.normal {
+    background-color: rgb(218, 214, 97); 
+    border-radius:  10%;
+}
+.bug {
+    background-color: rgb(223, 115, 49); 
+    border-radius:  10%;
+}
+.water {
+    background-color: rgb(63, 189, 203); 
+    border-radius:  10%;
+}
+.grass {
+    background-color: rgb(86, 167, 75); 
+    border-radius:  10%;
+}
+.fire {
+    background-color: rgb(203, 59, 23);
+    border-radius:  10%;
+}
+a{
+    color:rgb(10, 128, 128)
+}
